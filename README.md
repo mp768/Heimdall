@@ -1,6 +1,6 @@
 # The Heimdall Programming Language
 
-Heimdall is an experimental general-purpose language built off of the Odin programming language that aims to introduce new constructs aimed to provide an additional level of safety to common memory strategies. 
+Heimdall is an experimental programming "language" built off of the Odin programming language. It aims to introduce a few new constructs that provide some memory safety without introducing overhead or radically changing the existing structures of programs.   
 
 Below is the original Odin programming language description:
 
