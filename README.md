@@ -1,3 +1,9 @@
+# The Heimdall Programming Language
+
+Heimdall is an experimental general-purpose language built off of the Odin programming language that aims to introduce new constructs aimed to provide an additional level of safety to common memory strategies. 
+
+Below is the original Odin programming language description:
+
 <p align="center">
     <img src="misc/logo-slim.png" alt="Odin logo" style="width:65%">
     <br/>
@@ -18,9 +24,6 @@
         <img src="https://github.com/odin-lang/odin/actions/workflows/ci.yml/badge.svg?branch=master&event=push">
     </a>
 </p>
-
-# The Odin Programming Language
-
 
 Odin is a general-purpose programming language with distinct typing, built for high performance, modern systems, and built-in data-oriented data types. The Odin Programming Language, the C alternative for the joy of programming.
 
