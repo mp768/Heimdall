@@ -1163,7 +1163,7 @@ gb_internal void init_universal(void) {
 	}
 
 	add_global_string_constant("ODIN_MICROARCH_STRING", get_final_microarchitecture());
-	
+
 	{
 		GlobalEnumValue values[BuildMode_COUNT] = {
 			{"Executable", BuildMode_Executable},
@@ -3469,13 +3469,13 @@ gb_internal DECL_ATTRIBUTE_PROC(proc_decl_attribute) {
 		return true;
 	} else if (name == "init") {
 		if (value != nullptr) {
-			error(value, "'%.*s' expects no parameter, or a string literal containing \"file\" or \"package\"", LIT(name));
+			error(value, "'%.*s' expects no parameter", LIT(name));
 		}
 		ac->init = true;
 		return true;
 	} else if (name == "fini") {
 		if (value != nullptr) {
-			error(value, "'%.*s' expects no parameter, or a string literal containing \"file\" or \"package\"", LIT(name));
+			error(value, "'%.*s' expects no parameter", LIT(name));
 		}
 		ac->fini = true;
 		return true;
