@@ -2,6 +2,8 @@
 
 Heimdall is an experimental programming "language" built off of the Odin programming language. It aims to introduce a few new constructs that provide some memory safety without introducing overhead or radically changing the existing structures of programs.   
 
+This project might take a while to fully come to fruition as I don't plan to work on this constantly over the following weeks and months, but I thought I'd at least start it a little. So, if you're reading this while nothing has happened to the repo, don't worry, I'm just don't feel like working on it.
+
 Below is the original Odin programming language description:
 
 <p align="center">
